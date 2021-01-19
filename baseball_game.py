@@ -271,7 +271,7 @@ def main():
             
             else:
                 result = get_strikes_or_ball(user_input, random_number)
-                print("Strike : ", result[0], " , Balls : ", result[1])
+                print("Strikes : ", result[0], " , Balls : ", result[1])
 
             if result == [3, 0]:
                 answer = input("You win, one more(Y/N) ?")
